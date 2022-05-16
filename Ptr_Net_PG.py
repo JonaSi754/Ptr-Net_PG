@@ -45,4 +45,5 @@ class PolicyGradient:
             #     self.tf_acts = tl.layers.Input([None,], tf.int32, name="actions_num")
             #     self.tf_vt = tl.layers.Input([None,], tf.float32, name="actions_value")
             
-        def get_first_layer_params()
+        def get_first_layer_params():
+            return (10, 9)

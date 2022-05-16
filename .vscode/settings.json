@@ -1,0 +1,19 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.linting.flake8Args": [
+      "--max-line-length=120",
+      "--ignore=E402,F841,F401,E302,E305,W292,E262,E231,E501,I201,I100,W293" //编号根据自己需要确定
+    ],
+    "git.ignoreLimitWarning": true,
+    "files.exclude": {
+        "**/.git": false,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.gitignore": false
+    }
+  }
